@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  width: 400px;
+  width: 500px;
 }
 .navigator-link {
   @include font-banking($primary-font, $third-color, 1em, 400);

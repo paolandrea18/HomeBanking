@@ -44,7 +44,7 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   list-style: none;
-  width: 400px;
+  width: 500px;
 }
 
 .navigator-link {
@@ -78,7 +78,7 @@
 }
 
 .presentation-text-section {
-  margin-left: 3%;
+  margin-left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,6 +96,7 @@
   color: #ff813a;
   font-size: 1.5em;
   font-weight: 700;
+  margin-left: 4%;
 }
 
 .presentation-text {

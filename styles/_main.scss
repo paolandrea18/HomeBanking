@@ -8,11 +8,11 @@
 }
 
 .img-bank {
-  content: url('../assets/Home-Banking.png');
+  content: url("../assets/Home-Banking.png");
 }
 
 .presentation-text-section {
-  margin-left: 3%;
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,6 +20,7 @@
 
 .presentation-text-title {
   @include font-banking($primary-font, $first-color, 1.5em, 700);
+  margin-left: 4%;
 }
 
 .presentation-text {
