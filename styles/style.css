@@ -69,6 +69,10 @@
   margin-top: 5%;
 }
 
+.presentation-section-hidden {
+  display: none;
+}
+
 .img-bank {
   content: url("../assets/Home-Banking.png");
 }
@@ -101,6 +105,99 @@
   font-weight: 500;
   line-height: 23px;
   margin: 20px;
+}
+
+.user-register-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4%;
+}
+
+.img-register-user {
+  content: url("../assets/register-user.jpg");
+  width: 600px;
+  height: 400px;
+}
+
+.form-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 6%;
+}
+
+.user-register-title {
+  margin-top: 5%;
+  font-family: "Fira Mono", monospace;
+  color: #ff813a;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5%;
+  width: 400px;
+}
+
+.form-item {
+  margin: 5px;
+  font-family: "Fira Mono", monospace;
+  color: #004896;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.button-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.save-button {
+  margin-top: 5%;
+  font-family: "Fira Mono", monospace;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 25px;
+  background-color: #ff813a;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: tomato;
 }
 
 .footer-section {
