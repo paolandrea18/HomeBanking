@@ -1,0 +1,26 @@
+.presentation-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.img-bank {
+  content: url('../assets/Home-Banking.png');
+}
+
+.presentation-text-section {
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.presentation-text-title {
+  @include font-banking($primary-font, $first-color, 1.5em, 700);
+}
+
+.presentation-text {
+  @include font-banking($primary-font, $third-color, 1rem, 500);
+  line-height: 23px;
+  margin: 20px;
+}

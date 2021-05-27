@@ -1,0 +1,24 @@
+.footer-section {
+  margin-top: 40px;
+  background-color: $fifth-color;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding: 30px 0;
+}
+
+.copyright-text {
+  padding-top: 10px;
+  @include font-banking($primary-font, #000, 14px, 500);
+}
+.follow-us-text {
+  @include font-banking($primary-font, #000, 12px, 500);
+  margin-right: 20px;
+}
+.social-media-section {
+}
+
+.social-media-icon {
+  font-size: 2em;
+  color: $first-color;
+}

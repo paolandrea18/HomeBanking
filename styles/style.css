@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 4% 10% 2% 10%;
+}
+
+.navigator-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #ff813a;
+}
+
+.logo {
+  font-size: 3em;
+  color: #ff6347;
+}
+
+.logo-text {
+  font-family: "Fira Mono", monospace;
+  color: #ff813a;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.navigator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  width: 400px;
+}
+
+.navigator-link {
+  font-family: "Fira Mono", monospace;
+  color: #004896;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #004896;
+          text-decoration-color: #004896;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.presentation-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5%;
+}
+
+.img-bank {
+  content: url("../assets/Home-Banking.png");
+}
+
+.presentation-text-section {
+  margin-left: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.presentation-text-title {
+  font-family: "Fira Mono", monospace;
+  color: #ff813a;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.presentation-text {
+  font-family: "Fira Mono", monospace;
+  color: #004896;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 23px;
+  margin: 20px;
+}
+
+.footer-section {
+  margin-top: 40px;
+  background-color: #ffffa2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 30px 0;
+}
+
+.copyright-text {
+  padding-top: 10px;
+  font-family: "Fira Mono", monospace;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.follow-us-text {
+  font-family: "Fira Mono", monospace;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.social-media-icon {
+  font-size: 2em;
+  color: #ff813a;
+}
+/*# sourceMappingURL=style.css.map */

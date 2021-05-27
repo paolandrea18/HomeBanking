@@ -1,0 +1,29 @@
+.navigator-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 20px;
+  border-bottom: 3px solid $first-color;
+}
+
+.logo {
+  font-size: 3em;
+  color: #ff6347;
+}
+.logo-text {
+  @include font-banking($primary-font, $first-color, 3em, 700);
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 400px;
+}
+.navigator-link {
+  @include font-banking($primary-font, $third-color, 1em, 400);
+  text-decoration: underline;
+  text-decoration-color: $third-color;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}

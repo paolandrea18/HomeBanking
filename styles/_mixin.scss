@@ -1,0 +1,6 @@
+@mixin font-banking($font, $color, $size, $weight) {
+  font-family: $font;
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+}
