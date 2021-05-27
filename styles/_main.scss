@@ -5,7 +5,7 @@
 }
 
 .img-bank {
-  content: url('../assets/Home-Banking.png');
+  content: url("../assets/Home-Banking.png");
 }
 
 .presentation-text-section {
@@ -23,4 +23,48 @@
   @include font-banking($primary-font, $third-color, 1rem, 500);
   line-height: 23px;
   margin: 20px;
+}
+/*Estilos Login*/
+.main-section {
+  margin: 0 auto;
+  margin-top: 140px;
+  padding: 0;
+  #titulo {
+    position: relative;
+    bottom: 55px;
+    right: 110px;
+    width: 560px;
+    height: 80px;
+    color: $first-color;
+    font-weight: 700;
+    font-size: 3em;
+  }
+  .modal-content {
+    background-color: $second-color;
+    padding: 0 20px;
+    opacity: 0.85;
+  }
+}
+.contenedor-logo {
+  margin-top: -60px;
+  margin-bottom: 40px;
+  .avatar-login {
+    width: 180px;
+    height: 180px;
+  }
+}
+.form-group {
+  input {
+    height: 40px;
+    font-size: 18px;
+    border: 0;
+    text-align: center;
+  }
+}
+.btn-ingresar {
+  width: 100%;
+  margin: 5px 0 25px;
+}
+.recordar-contrasenia {
+  bottom: 20px;
 }
