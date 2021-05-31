@@ -1,0 +1,25 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Diego",
+        "apellido": "Contreras",
+        "saldo": "10000",
+        "type":"Admin"
+      },
+      {
+        "id": 2,
+        "nombre": "Angela",
+        "apellido": "Mejia",
+        "saldo": "20000",
+        "type":"client"
+      },
+      {
+        "id": 3,
+        "nombre": "Mariana",
+        "apellido": "Lopez",
+        "saldo": "30000",
+        "type":"client"
+      }
+    ]
+  }
