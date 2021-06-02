@@ -1,0 +1,21 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Diego",
+        "apellido": "Cabulo",
+        "saldo": "30000",
+        "usuario": "usuario1",
+        "contrasenia": "12345"
+        
+      },
+      {
+        "id": 2,
+        "nombre": "Angela",
+        "apellido": "Vargas",
+        "saldo": "30000",
+        "usuario": "usuario2",
+        "contrasenia": "123"
+      }
+    ]
+  }

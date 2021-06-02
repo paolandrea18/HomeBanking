@@ -1,17 +1,22 @@
 {
-  "name": "home-baking-app",
+  "name": "HomeBanking",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolandrea18/HomeBanking.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.7"
+  "bugs": {
+    "url": "https://github.com/paolandrea18/HomeBanking/issues"
   },
+  "homepage": "https://github.com/paolandrea18/HomeBanking#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
