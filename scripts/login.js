@@ -2,18 +2,6 @@ let usuario_input = document.getElementById("usuario");
 let password_input = document.getElementById("password");
 let btnIngresar = document.getElementById("btn-ingresar");
 
-// class Data{
-//     constructor_login(usuario, password){
-//         this.usuario = usuario;
-//         this.password = password
-//     }
-//     get usuario(){
-//         return this.usuario;
-//     }
-//     get password(){
-//         return this.password;
-//     }
-// }
 
 const LOGINURL = `http://localhost:4000/login`
 btnIngresar.addEventListener("click", async () =>{
@@ -39,12 +27,13 @@ const dataJson = {
 
   console.log('Este es mi resultado', resultJson);
 })
+
 // const queryLogin = `http://localhost:4000/login`
 // btnIngresar.addEventListener("click", async () =>{
 //     let usuario = usuario_input.value;
 //     let password = password_input.value;
 //     const data = {"user": usuario, "password": password }
-//     // let data = new Data(usuario, password)
+//     let data = new Data(usuario, password)
 //     console.log(usuario)
 //     console.log(data)
 //     await fetch(encodeURI(queryLogin), {
