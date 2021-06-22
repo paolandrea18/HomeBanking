@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registro de Usuario</title>
+    <title>Zona de Registro</title>
     <link
       rel="shortcut icon"
       href="../assets/piggy-bank-solid.svg"
@@ -19,11 +19,11 @@
       referrerpolicy="no-referrer"
     />
     <!-- Style -->
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../view/styles/style.css" />
   </head>
   <body>
     <div class="container">
-      <head>
+      <header>
         <nav class="navigator-bar">
           <div class="logo-section">
             <span class="logo">
@@ -39,12 +39,13 @@
               <li class="navigator-item">
                 <a class="navigator-link" href="./register.html">Registrarse</a>
               </li>
-              <li class="navigator-item">
-                <a class="navigator-link" href="#">Iniciar sesión</a>
+              <li class="navigarot-item">
+                <a class="navigator-link" href="./login.html">Login</a>
               </li>
             </ul>
           </div>
         </nav>
+      </header>
       </head>
       <main>
         <div class="user-register-section">
@@ -74,6 +75,29 @@
                 name="password"
                 id="password"
               />
+              <label class="form-item" for="password">Repetir Contraseña:</label>
+              <input
+                class="form-item"
+                type="password"
+                name="password"
+                id="password"
+              />
+              <p class="form-item"> Selecciona el tipo de perfil que deseas crear:
+              <label class="form-item" for="userClass" value="admin">Administrador</label>
+              <input
+                class="form-item"
+                type="radio"
+                name="userClass"
+                id="userClass"
+              />
+              <label class="form-item" for="userClass" value="client">Cliente</label>
+              <input
+                class="form-item"
+                type="radio"
+                name="userClass"
+                id="userClass"
+              />
+            </p>
               <div class="button-section">
                 <input class="save-button" type="submit" value="Crear" />
               </div>
@@ -101,5 +125,6 @@
         </div>
       </footer>
     </div>
+    <script src="./js/register.js"></script>
   </body>
 </html>

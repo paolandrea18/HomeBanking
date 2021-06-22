@@ -74,7 +74,7 @@
 }
 
 .img-bank {
-  content: url("../assets/Home-Banking.png");
+  content: url("/src/assets/Home-Banking.png");
 }
 
 .presentation-text-section {
@@ -122,7 +122,7 @@
 }
 
 .img-register-user {
-  content: url("../assets/register-user.jpg");
+  content: url("/src/assets/register-user.jpg");
   width: 600px;
   height: 400px;
 }

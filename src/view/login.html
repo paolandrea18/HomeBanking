@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Banking</title>
+    <title>login</title>
     <link
-      rel="shortcut icon"
-      href="../assets/piggy-bank-solid.svg"
-      type="image/x-icon"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../styles/style.css" />
     <!-- CDN-FontAwesome -->
     <link
       rel="stylesheet"
@@ -18,12 +20,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Style -->
-    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
     <div class="container">
-      <head>
+      <header>
         <nav class="navigator-bar">
           <div class="logo-section">
             <span class="logo">
@@ -39,30 +39,50 @@
               <li class="navigator-item">
                 <a class="navigator-link" href="./register.html">Registrarse</a>
               </li>
-              <li class="navigator-item">
-                <a class="navigator-link" href="#">Iniciar Sesión</a>
+              <li class="navigarot-item">
+                <a class="navigator-link" href="./login.html">Login</a>
               </li>
             </ul>
           </div>
         </nav>
-      </head>
+      </header>
       <main>
-        <div class="presentation-section">
-          <img class="img-bank" src="#" alt="Banco" />
-          <div class="presentation-text-section">
-            <h2 class="presentation-text-title">Quienes Somos.</h2>
-            <p class="presentation-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-              nesciunt est sint ullam totam unde eos vero dolore iusto porro
-              dolor iste, aspernatur, quaerat beatae deserunt nulla ut natus
-              nostrum.
-            </p>
-            <p class="presentation-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-              nesciunt est sint ullam totam unde eos vero dolore iusto porro
-              dolor iste, aspernatur, quaerat beatae deserunt nulla ut natus
-              nostrum.
-            </p>
+        <div class="modal-dialog text-center contenedor">
+          <div class="col-sm-8 main-section">
+            <h1 id="titulo">Welcome Home Banking</h1>
+            <div class="modal-content">
+              <div class="col-12 contenedor-logo">
+                <img
+                  class="avatar-login"
+                  src="../assets/avatar-login.png"
+                  alt=""
+                />
+              </div>
+              <form action="" class="col-12 formulario">
+                <div class="form-group">
+                  <input
+                    id="usuario"
+                    type="text"
+                    class="form-control"
+                    placeholder="Nombre de usuario"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    id="password"
+                    type="password"
+                    class="form-control"
+                    placeholder="Contraseña"
+                  />
+                </div>
+                <div id="btn-ingresar" class="btn btn-primary btn-ingresar">
+                  <i class="fas fa-sign-in-alt"></i> Ingresar
+                </div>
+              </form>
+              <div class="col-12 recordar-contrasenia">
+                <a href="#">Recordar contraseña</a>
+              </div>
+            </div>
           </div>
         </div>
       </main>
@@ -86,5 +106,6 @@
         </div>
       </footer>
     </div>
+    <script src="../scripts/login.js"></script>
   </body>
 </html>
